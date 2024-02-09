@@ -1,0 +1,78 @@
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.scroll__container {
+    position: absolute;
+    bottom: 0;
+    background-color: #F54932;
+    width: 2335px;
+    height: 22px;
+    margin-top: 88px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.scroll__text {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    height: 22px;
+
+    /* animation properties */
+    /* -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 35s linear infinite;
+    -webkit-animation: my-animation 35s linear infinite;
+    animation: my-animation 35s linear infinite; */
+}
+
+.scroll__text_break {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 9px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+}

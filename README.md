@@ -4,7 +4,7 @@
 
 - Follow the Pixel Perfect principle.
 - Avoid duplicating text content in mobile and desktop versions.
-- Add a scrolling text and other animations at your own discretion.
+- Add a running text and other animations at your own discretion.
 - The buttons on the start screen are anchors and lead to the corresponding blocks.
 - The carousel with participants' cards should be looped and change automatically every 4 seconds.
 - The carousel with stages' cards should not be looped and should not automatically change slides.
