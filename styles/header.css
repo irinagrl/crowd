@@ -1,7 +1,5 @@
-/* header starts*/
 .header {
     background: #E9DED4;
-    color: #313131;
     /* background-image: url(./images/img_back.png); */
     width: 100%;
     display: flex;
@@ -27,7 +25,7 @@
 }
 
 .header__title {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Merriweather', serif;
     font-size: 60px;
     font-weight: 400;
@@ -110,11 +108,9 @@
 }
 
 .header__img_city {
-    width: 1320px;
+    width: 1366px;
     object-fit: contain;
     object-position: -235px 0%;
 }
 
-.chess__elm_one {}
-
-/* header end*/
+/* .chess__elm_one {} */

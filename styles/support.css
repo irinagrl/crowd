@@ -1,0 +1,94 @@
+.support {
+    border: 1px solid red;
+    max-width: 1222px;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 80px;
+}
+
+.support__row {
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    width: 1222px;
+    margin-bottom: 64px;
+
+}
+
+.support__text_one {
+    width: 764px;
+    align-self: center;
+}
+
+.support__text_red {
+    font-weight: 700;
+    color: #F54932;
+}
+
+.support__img_tournament {
+    width: 394px;
+    height: 250px;
+    border-radius: 87.31%;
+}
+
+.support__img_chess-player {
+    width: 474px;
+    height: 527px;
+}
+
+.support__row_two {
+    border: 1px solid red;
+
+    width: 704px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+.support__text_two {
+    grid-column: 1 / span 2;
+}
+
+.support__text_blue {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 24px;
+    letter-spacing: 0px; */
+    text-align: left;
+    color: #3057A2;
+    grid-column: 1 / span 2;
+}
+
+.support__table {
+    border: 1px solid red;
+    width: 704px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 306px 382px;
+    column-gap: 16px;
+    margin-top: 60px;
+    /* grid-template-rows: auto auto auto auto auto; */
+}
+
+.support__table_row {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 32px;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+
+}
+
+.table__row_col-two {
+    width: 382px;
+    border-left: 2px solid grey;
+
+}

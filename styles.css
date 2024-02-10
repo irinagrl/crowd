@@ -3,18 +3,50 @@
 @import url(./styles/footer.css);
 @import url(./styles/scroll.css);
 @import url(./styles/header.css);
-
+@import url(./styles/support.css);
 
 p {
     margin: 0%;
 }
 
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+h4 {
+    margin: 0;
+
+}
+
 .page {
-    max-width: 1920px;
+    /* border: 1px solid red; */
+
+    max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    color: #313131;
+}
+
+.text_bold {
+    font-weight: 700;
 }
