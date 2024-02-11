@@ -4,9 +4,14 @@
 @import url(./styles/scroll.css);
 @import url(./styles/header.css);
 @import url(./styles/support.css);
+@import url(./styles/city.css);
+@import url(./styles/participants.css);
 
-p {
-    margin: 0%;
+
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -18,7 +23,6 @@ h3 {
 
 h3 {
     font-family: 'Merriweather', serif;
-
     font-size: 36px;
     font-weight: 400;
     line-height: 49px;
@@ -47,6 +51,30 @@ h4 {
     color: #313131;
 }
 
-.text_bold {
+.table__col_two {
     font-weight: 700;
+}
+
+.section__title {
+    border: 1px solid red;
+    width: 1222;
+    height: 130px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+    margin-top: 200px;
+}
+
+.section__title_text {
+    font-family: 'Merriweather', serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0px;
+    text-align: left;
+    grid-row: 1 / span 2;
+
+
 }
