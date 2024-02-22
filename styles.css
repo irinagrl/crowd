@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
-@import url(./styles/footer.css);
-@import url(./styles/scroll.css);
 @import url(./styles/header.css);
+@import url(./styles/main.css);
+@import url(./styles/scroll.css);
 @import url(./styles/support.css);
 @import url(./styles/city.css);
 @import url(./styles/participants.css);
-
+@import url(./styles/footer.css);
 
 
 body {
@@ -37,7 +37,7 @@ h4 {
 }
 
 .page {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 
     max-width: 1366px;
     margin-left: auto;
@@ -51,7 +51,16 @@ h4 {
     color: #313131;
 }
 
-.table__col_two {
+.background__image {
+    background: #E9DED4;
+    background-image: url(../images/img_back.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    width: 100%;
+}
+
+/* .table__col_two {
     font-weight: 700;
 }
 
@@ -77,4 +86,4 @@ h4 {
     grid-row: 1 / span 2;
 
 
-}
+} */

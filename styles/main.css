@@ -1,0 +1,104 @@
+.main {
+    margin-left: 72px;
+}
+
+.main__text {
+    position: relative;
+    border: 1px green solid;
+    /* width: 1604px; */
+}
+
+
+.main__title_div {
+    width: 542px;
+    margin-top: calc(124px-36px-26px);
+}
+
+.main__title {
+    /* text-transform: uppercase; */
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.title__line_one {
+    text-align: left;
+}
+
+.title__line_two {
+    text-align: center;
+}
+
+.title__line_three {
+    text-align: right;
+}
+
+.main__subtitle {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.main__buttons {
+    margin-top: 22px;
+    width: 542px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__button {
+    width: 263px;
+    height: 72px;
+    padding: 0px 45px;
+    border-radius: 66px;
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+.main__button_black {
+    background: #1F1F1F;
+    color: #fff;
+}
+
+.main__button_black:hover {
+    background: #FBCE51;
+    color: #1F1F1F;
+}
+
+.main__button_white {
+    border: 2px solid #1F1F1F;
+    color: #1F1F1F;
+
+}
+
+.main__button_white:hover {
+    border: 2px solid #1F1F1F;
+    background-color: #1F1F1F;
+    color: #fff;
+
+}
+
+
+
+.main__chess {
+    border: 1px solid blue;
+    position: relative;
+
+}
+
+.main__img_city {
+    width: 1366px;
+    object-fit: contain;
+    object-position: -235px 0%;
+}
